@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact and booking | Eric Kayz Barbershop</title>
+  <meta name="description" content="Call, WhatsApp or book online with Eric Kayz Barbershop at 17 8th St, Bezuidenhout Valley, Johannesburg. Open Monday to Saturday.">
+  <meta name="theme-color" content="#14120f">
+  <meta property="og:title" content="Contact and booking | Eric Kayz Barbershop">
+  <meta property="og:description" content="Call, WhatsApp or book online with Eric Kayz Barbershop at 17 8th St, Bezuidenhout Valley, Johannesburg. Open Monday to Saturday.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://YOUR-SITE-URL/contact.html">
+  <meta property="og:url" content="https://YOUR-SITE-URL/contact.html">
+  <meta property="og:image" content="https://YOUR-SITE-URL/images/barbershop-featured-cut-1200.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✂️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+  <!-- Google Analytics: paste your gtag.js snippet here before publishing -->
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Eric Kayz <span>Barbershop</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <h1 id="page-title">Contact and booking</h1>
+      <p>Call, message on WhatsApp or book online. WhatsApp is the quickest way to reach us.</p>
+    </section>
+
+    <section aria-labelledby="details-title">
+      <h2 id="details-title">Get in touch</h2>
+      <ul class="contact-list">
+        <li>
+          <div class="icon" aria-hidden="true">&#128222;</div>
+          <div>
+            <p class="label">Phone / Calls</p>
+            <p class="value"><a href="tel:+27713004435">071 300 4435</a></p>
+          </div>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">&#128172;</div>
+          <div>
+            <p class="label">WhatsApp Booking</p>
+            <p class="value"><a href="https://wa.me/27713004435?text=Hi%20Eric%20Kayz%2C%20I%27d%20like%20to%20book%20a%20haircut." target="_blank" rel="noopener">071 300 4435</a></p>
+          </div>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">&#128205;</div>
+          <div>
+            <p class="label">Address</p>
+            <p class="value">17 8th St, Bezuidenhout Valley,<br>Johannesburg, 2049, South Africa</p>
+          </div>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">&#127760;</div>
+          <div>
+            <p class="label">Website</p>
+            <p class="value"><a href="https://erickayz.com" target="_blank" rel="noopener">erickayz.com</a></p>
+          </div>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">&#128247;</div>
+          <div>
+            <p class="label">Instagram</p>
+            <p class="value"><a href="https://www.instagram.com/erickayzbarbershop" target="_blank" rel="noopener">@erickayzbarbershop</a></p>
+          </div>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">&#128197;</div>
+          <div>
+            <p class="label">Online Booking</p>
+            <p class="value"><a href="https://www.fresha.com/a/eric-kayz-barbershop-johannesburg-15-8th-street-qdzk8bu2" target="_blank" rel="noopener">Book on Fresha</a></p>
+          </div>
+        </li>
+      </ul>
+      <p class="note">Details gathered from erickayz.com and public listings. Please verify before visiting.</p>
+    </section>
+
+    <section aria-labelledby="message-title">
+      <h2 id="message-title">Send us a message</h2>
+      <p>Fill in the form and we will prepare an email to the barbershop for you to send. For bookings, <a href="enquiry.html">use the enquiry form</a> or WhatsApp.</p>
+      <form id="contact-form" class="form" action="mailto:your-email@example.com" method="post" enctype="text/plain" novalidate>
+        <p class="form-summary" role="alert" hidden></p>
+        <div class="form-grid">
+          <div class="field"><label for="c-name">Full name</label><input id="c-name" name="name" type="text" aria-describedby="c-name-error" autocomplete="name" required minlength="2" maxlength="60" data-required="Please enter your name."><span class="error" id="c-name-error"></span></div>
+          <div class="field"><label for="c-email">Email address</label><input id="c-email" name="email" type="email" aria-describedby="c-email-error" autocomplete="email" required maxlength="100" data-required="Please enter your email address."><span class="error" id="c-email-error"></span></div>
+          <div class="field"><label for="c-phone">Phone number (optional)</label><input id="c-phone" name="phone" type="tel" aria-describedby="c-phone-error" autocomplete="tel" maxlength="16" pattern="(\+27|0)[0-9 \-]{9,13}" title="Enter a South African number such as 071 300 4435 or +27 71 300 4435."><span class="hint">For example 071 300 4435</span><span class="error" id="c-phone-error"></span></div>
+          <div class="field"><label for="c-topic">Type of message</label><select id="c-topic" name="topic" required aria-describedby="c-topic-error" data-required="Please choose a message type."><option value="">Choose a type</option><option>General question</option><option>Booking help</option><option>Feedback or compliment</option><option>Complaint</option><option>Business or sponsorship</option></select><span class="error" id="c-topic-error"></span></div>
+        </div>
+        <div class="field"><label for="c-subject">Subject</label><input id="c-subject" name="subject" type="text" aria-describedby="c-subject-error" required minlength="3" maxlength="80" data-required="Please add a short subject."><span class="error" id="c-subject-error"></span></div>
+        <div class="field"><label for="c-message">Your message</label><textarea id="c-message" name="message" rows="6" required minlength="10" maxlength="1000" aria-describedby="c-message-error c-message-count" data-required="Please type your message."></textarea><span class="hint counter" id="c-message-count" aria-hidden="true"></span><span class="error" id="c-message-error"></span></div>
+        <button class="btn" type="submit">Prepare my email</button>
+      </form>
+      <div id="contact-result" class="result" tabindex="-1" aria-live="polite" hidden></div>
+    </section>
+
+    <section class="alt" aria-labelledby="find-title">
+      <h2 id="find-title">Find us</h2>
+      <div class="split">
+        <div class="address-block">
+          <address>17 8th St, Bezuidenhout Valley,<br>Johannesburg, 2049</address>
+          <div class="btn-row">
+            <a class="btn" href="https://www.google.com/maps/search/?api=1&query=17%208th%20St%2C%20Bezuidenhout%20Valley%2C%20Johannesburg%2C%202049" target="_blank" rel="noopener">Get directions</a>
+          </div>
+        </div>
+        <table class="hours">
+        <caption>Opening hours</caption>
+        <tbody>
+          <tr><th scope="row">Monday</th><td>09:00 - 19:00</td></tr>
+          <tr><th scope="row">Tuesday</th><td>09:00 - 19:00</td></tr>
+          <tr><th scope="row">Wednesday</th><td>09:00 - 19:00</td></tr>
+          <tr><th scope="row">Thursday</th><td>09:00 - 19:00</td></tr>
+          <tr><th scope="row">Friday</th><td>09:00 - 19:00</td></tr>
+          <tr><th scope="row">Saturday</th><td>09:00 - 19:00</td></tr>
+          <tr><th scope="row">Sunday</th><td>Closed</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="map-title">
+      <h2 id="map-title">Find us on the map</h2>
+      <p>Zoom and drag the map, or <a href="https://www.google.com/maps/search/?api=1&query=17%208th%20St%2C%20Bezuidenhout%20Valley%2C%20Johannesburg%2C%202049" target="_blank" rel="noopener">open it in Google Maps</a> for directions. The pin shows the Bezuidenhout Valley area.</p>
+      <div id="map" role="region" aria-label="Map showing the Eric Kayz Barbershop area in Bezuidenhout Valley, Johannesburg"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="footer-brand">Eric Kayz Barbershop</p>
+      <p>You will feel like a celebrity. Premium cuts in JHB.</p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <address>
+      17 8th St, Bezuidenhout Valley<br>
+      Johannesburg, 2049<br>
+      <a href="tel:+27713004435">071 300 4435</a><br>
+      <a href="https://www.instagram.com/erickayzbarbershop" target="_blank" rel="noopener">Instagram</a>
+    </address>
+    <p class="copyright">&copy; 2026 Student website project for WEDE5020. This is not the official Eric Kayz Barbershop website.</p>
+  </footer>
+</body>
+</html>
