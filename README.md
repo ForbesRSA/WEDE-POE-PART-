@@ -1,7 +1,7 @@
 # WEDE-POE-PART-
 WEDE5020 POE. Part 1: proposal. Part 2: CSS and responsive design. Part 3: functionality and SEO.
 
-Live site: 
+Live site: https://forbesrsa.github.io/WEDE-POE-PART-/
 ## Site structure
 
 | File | Purpose |
