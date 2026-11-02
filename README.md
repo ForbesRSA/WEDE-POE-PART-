@@ -95,6 +95,12 @@ After deploying, replace `https://YOUR-SITE-URL` in all files (VS Code: Ctrl+Shi
 | 01/11/2026 | _headers | Added security and caching headers for Netlify | Security and page speed |
 | 01/11/2026 | 404.html | Created a custom not-found page | Usability and SEO |
 
+### Earlier entries (Part 2)
+
+| Date | File | What was changed | Reason |
+
+| 29 October 2026 | index.html, about.html, services.html, gallery.html, contact.html, styles.css, script.js | Built the five-page site with an external stylesheet, dark gold theme, Grid and Flexbox layouts, three breakpoints, responsive images, mobile menu and gallery lightbox | Part 2 requirements |
+
 ## References
 
 - Eric Kayz Barbershop. n.d. Eric Kayz Barbershop. Available at: https://erickayz.com (Accessed: 15 August 2026).
