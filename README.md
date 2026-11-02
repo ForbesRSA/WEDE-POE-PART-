@@ -1,8 +1,7 @@
 # WEDE-POE-PART-
 WEDE5020 POE. Part 1: proposal. Part 2: CSS and responsive design. Part 3: functionality and SEO.
 
-Live site: https://YOUR-SITE-URL  (replace after deploying)
-
+Live site: 
 ## Site structure
 
 | File | Purpose |
@@ -99,11 +98,10 @@ After deploying, replace `https://YOUR-SITE-URL` in all files (VS Code: Ctrl+Shi
 ## References
 
 - Eric Kayz Barbershop. n.d. Eric Kayz Barbershop. Available at: https://erickayz.com (Accessed: 15 August 2026).
-- Fresha. n.d. Eric Kayz Barbershop. Available at: https://www.fresha.com/a/eric-kayz-barbershop-johannesburg-15-8th-street-qdzk8bu2 (Accessed: DD Month 2026).
-- Leaflet. n.d. Leaflet, an open-source JavaScript library for interactive maps. Available at: https://leafletjs.com (Accessed: DD Month 2026).
+- Fresha. n.d. Eric Kayz Barbershop. Available at: https://www.fresha.com/a/eric-kayz-barbershop-johannesburg-15-8th-street-qdzk8bu2 (Accessed: 24 October 2026).
+- Leaflet. n.d. Leaflet, an open-source JavaScript library for interactive maps. Available at: https://leafletjs.com (Accessed: 24 October 2026).
 - OpenStreetMap contributors. n.d. OpenStreetMap. Available at: https://www.openstreetmap.org (Accessed: DD Month 2026).
-- MDN Web Docs. n.d. Client-side form validation. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation (Accessed: DD Month 2026).
-- MDN Web Docs. n.d. Using the Fetch API. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (Accessed: DD Month 2026).
-- Google. n.d. Search Central: SEO starter guide. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: DD Month 2026).
-- Netlify. n.d. Forms setup. Available at: https://docs.netlify.com/manage/forms/setup/ (Accessed: DD Month 2026).
-- Google Fonts. n.d. Barlow Condensed and Source Sans 3. Available at: https://fonts.google.com (Accessed: DD Month 2026).
+- MDN Web Docs. n.d. Client-side form validation. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation (Accessed: 24 October 2026).
+- MDN Web Docs. n.d. Using the Fetch API. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (Accessed: 24 October 2026).
+- Google. n.d. Search Central: SEO starter guide. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 24 October 2026).
+- Google Fonts. n.d. Barlow Condensed and Source Sans 3. Available at: https://fonts.google.com (Accessed: 22 October  2026).
